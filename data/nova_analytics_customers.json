@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Acme Corp",
+    "segment": "Enterprise",
+    "tier": "Strategic",
+    "users": 1200
+  },
+  {
+    "name": "Globex International",
+    "segment": "Enterprise",
+    "tier": "Strategic",
+    "users": 3500
+  },
+  {
+    "name": "Initech Systems",
+    "segment": "Enterprise",
+    "tier": "Enterprise",
+    "users": 850
+  },
+  {
+    "name": "Massive Dynamic",
+    "segment": "Enterprise",
+    "tier": "Enterprise",
+    "users": 2100
+  },
+  {
+    "name": "Umbrella Corp",
+    "segment": "Enterprise",
+    "tier": "Enterprise",
+    "users": 4500
+  },
+  {
+    "name": "Hooli Enterprise",
+    "segment": "Enterprise",
+    "tier": "Strategic",
+    "users": 6000
+  },
+  {
+    "name": "Stark Industries",
+    "segment": "Enterprise",
+    "tier": "Strategic",
+    "users": 1800
+  },
+  {
+    "name": "Wayne Enterprises",
+    "segment": "Enterprise",
+    "tier": "Strategic",
+    "users": 2900
+  },
+  {
+    "name": "Cyberdyne Systems",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 400
+  },
+  {
+    "name": "Soylent Corp",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 320
+  },
+  {
+    "name": "Oscorp Tech",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 280
+  },
+  {
+    "name": "Tyrell Corporation",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 450
+  },
+  {
+    "name": "Aperture Science",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 520
+  },
+  {
+    "name": "Black Mesa Research",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 610
+  },
+  {
+    "name": "Wonka Industries",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 380
+  },
+  {
+    "name": "Dunder Mifflin",
+    "segment": "Mid-market",
+    "tier": "Growth",
+    "users": 210
+  },
+  {
+    "name": "Pied Piper",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 75
+  },
+  {
+    "name": "Vandelay Industries",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 45
+  },
+  {
+    "name": "Sterling Cooper",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 90
+  },
+  {
+    "name": "Monsters Inc",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 110
+  },
+  {
+    "name": "Bluth Company",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 35
+  },
+  {
+    "name": "Prestige Worldwide",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 28
+  },
+  {
+    "name": "Gekko & Co",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 85
+  },
+  {
+    "name": "Strickland Propane",
+    "segment": "SMB",
+    "tier": "Core",
+    "users": 40
+  },
+  {
+    "name": "Aviato",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 12
+  },
+  {
+    "name": "Raviga Capital",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 18
+  },
+  {
+    "name": "Bachmanity",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 8
+  },
+  {
+    "name": "SeeFood AI",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 15
+  },
+  {
+    "name": "Endive Logic",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 22
+  },
+  {
+    "name": "Nucleus App",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 14
+  },
+  {
+    "name": "Pied Piper Cloud",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 30
+  },
+  {
+    "name": "Kramerica Labs",
+    "segment": "Startup",
+    "tier": "Starter",
+    "users": 9
+  }
+]

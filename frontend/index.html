@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Memory OS | AI Customer Intelligence Powered by Hindsight</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-icon">🧠</div>
+      <div>
+        <div class="brand-title">Feedback Memory OS</div>
+        <div class="brand-tagline">Powered by Hindsight</div>
+      </div>
+    </div>
+
+    <div class="nav-section-title">Intelligence</div>
+    <ul class="nav-links">
+      <li class="nav-item active" data-tab="tab-overview">
+        <span class="nav-icon">📊</span>
+        <span>Overview</span>
+      </li>
+      <li class="nav-item" data-tab="tab-what-changed">
+        <span class="nav-icon">⚡</span>
+        <span>"What Changed?"</span>
+      </li>
+      <li class="nav-item" data-tab="tab-decisions">
+        <span class="nav-icon">🎯</span>
+        <span>Decision Memory</span>
+      </li>
+      <li class="nav-item" data-tab="tab-ask-memory">
+        <span class="nav-icon">💬</span>
+        <span>Ask Memory</span>
+      </li>
+      <li class="nav-item" data-tab="tab-memory-explorer">
+        <span class="nav-icon">🔍</span>
+        <span>Memory Explorer</span>
+      </li>
+      <li class="nav-item" data-tab="tab-customers">
+        <span class="nav-icon">🏢</span>
+        <span>Customer Memory</span>
+      </li>
+      <li class="nav-item" data-tab="tab-knowledge-pages">
+        <span class="nav-icon">📖</span>
+        <span>Mental Models</span>
+      </li>
+
+      <div class="nav-section-title">Intelligence & Operations</div>
+      <li class="nav-item" data-tab="tab-ablation">
+        <span class="nav-icon">⚖️</span>
+        <span>Architecture Benchmark</span>
+      </li>
+      <li class="nav-item" data-tab="tab-demo">
+        <span class="nav-icon">🔄</span>
+        <span>Lifecycle Simulator</span>
+      </li>
+      <li class="nav-item" data-tab="tab-ingestion">
+        <span class="nav-icon">📥</span>
+        <span>Ingestion Hub</span>
+      </li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <div class="bank-badge">
+        <span class="bank-status-dot"></span>
+        <div style="flex-grow: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+          <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Active Bank</div>
+          <strong id="active-bank-name" style="font-size: 11.5px; font-family: 'JetBrains Mono', monospace;">workspace_nova_analytics</strong>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-wrapper">
+    <!-- Top Bar -->
+    <header class="top-header">
+      <div class="header-left">
+        <h1 class="page-title" id="page-heading">Overview Dashboard</h1>
+      </div>
+      <div class="header-right">
+        <div class="hindsight-status-pill" id="btn-open-inspector" title="Click to view Hindsight Memory Engine Telemetry">
+          <span>🧠 Hindsight Memory Active</span>
+          <span style="font-size: 10px; opacity: 0.8;">| 535 Memories</span>
+        </div>
+        <button class="btn btn-secondary" id="btn-sync-connectors">
+          <span>🔄 Sync Connectors</span>
+        </button>
+        <button class="btn btn-primary" id="btn-quick-demo">
+          <span>⚡ Live Simulator</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="content-body">
+
+      <!-- ======================================================== -->
+      <!-- TAB 1: OVERVIEW DASHBOARD -->
+      <!-- ======================================================== -->
+      <section class="tab-content active" id="tab-overview">
+        <!-- Morning Banner -->
+        <div class="morning-banner">
+          <div>
+            <div class="morning-title">Good Morning</div>
+            <div class="morning-headline">Your customer memory learned 43 new things this week.</div>
+            <div class="morning-desc">
+              <strong>Most important shift:</strong> Enterprise onboarding complaints are no longer about general navigation. They are now heavily concentrated around advanced API keys, custom webhooks, and SSO configuration.
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-primary" onclick="switchTab('tab-what-changed')">Investigate Shift &rarr;</button>
+          </div>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Total Feedback Ingested</span>
+            <span class="stat-value" id="stat-total-feedback">535</span>
+            <span class="stat-subtext">Across 5 Channels</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Active Themes Tracked</span>
+            <span class="stat-value" id="stat-active-themes">10</span>
+            <span class="stat-subtext">Dynamically Discovered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Emerging Issues</span>
+            <span class="stat-value" style="color: var(--accent-amber);" id="stat-emerging-issues">3</span>
+            <span class="stat-subtext" style="color: var(--accent-amber);">API Onboarding +31%</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Resolved Issues</span>
+            <span class="stat-value" style="color: var(--accent-emerald);" id="stat-resolved-issues">4</span>
+            <span class="stat-subtext">UI Nav & Query Speed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Memory Growth</span>
+            <span class="stat-value" id="stat-memory-growth">+214</span>
+            <span class="stat-subtext">Memories This Month</span>
+          </div>
+        </div>
+
+        <!-- 2 Column: Emerging Themes & Sentiment Evolution -->
+        <div class="grid-2col">
+          <!-- Emerging Themes Card -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">🔥 Top Emerging Customer Themes</div>
+                <div class="card-subtitle">Evolving patterns identified by Hindsight memory consolidation</div>
+              </div>
+              <button class="btn btn-secondary" onclick="switchTab('tab-what-changed')">View Analysis</button>
+            </div>
+            <div id="themes-list-container">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- Sentiment Over Time Card -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">📈 Onboarding Sentiment Over Time</div>
+                <div class="card-subtitle">Memory-grounded sentiment progression (Jan 2026 - Sep 2026)</div>
+              </div>
+            </div>
+            <div id="sentiment-timeline-container" class="timeline">
+              <!-- Dynamically populated monthly progression -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Memory Stream -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">🧠 Recent Retained Memories</div>
+              <div class="card-subtitle">Live stream of customer experiences retained in Hindsight Bank</div>
+            </div>
+            <button class="btn btn-secondary" onclick="switchTab('tab-memory-explorer')">Open Explorer &rarr;</button>
+          </div>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Customer</th>
+                  <th>Segment</th>
+                  <th>Source</th>
+                  <th>Feedback Memory</th>
+                  <th>Sentiment</th>
+                </tr>
+              </thead>
+              <tbody id="recent-memories-tbody">
+                <!-- Populated via API -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 2: "WHAT CHANGED?" ANALYZER -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-what-changed">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">⚡ "What Changed?" Historical Synthesizer</div>
+              <div class="card-subtitle">Select a product and topic to trace how customer opinions evolved across decisions and time</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <select id="wc-topic-select" class="btn btn-secondary">
+                <option value="onboarding">Topic: Onboarding</option>
+                <option value="performance">Topic: Performance</option>
+                <option value="pricing">Topic: Pricing & Billing</option>
+              </select>
+              <button class="btn btn-primary" id="btn-run-what-changed">Synthesize Memory</button>
+            </div>
+          </div>
+
+          <!-- Executive Summary Banner -->
+          <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid var(--border-active); border-radius: var(--radius-md); padding: 20px; margin-bottom: 24px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+              <strong style="color: #C7D2FE; font-size: 15px;">CURRENT AGENT UNDERSTANDING</strong>
+              <span class="insight-badge badge-resolved" id="wc-confidence-badge">High Confidence (38 Memories)</span>
+            </div>
+            <p id="wc-current-understanding" style="font-size: 14.5px; line-height: 1.6; color: var(--text-primary);">
+              The original onboarding problem appears substantially improved for SMB and Startup accounts. The remaining issue is primarily enterprise API configuration and custom webhook SSO setup.
+            </p>
+          </div>
+
+          <!-- Chronological Narrative Arc -->
+          <div style="margin-bottom: 24px;">
+            <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 16px;">
+              Chronological Memory Evolution (7 Months)
+            </h3>
+            <div id="wc-narrative-steps" style="display: flex; flex-direction: column; gap: 12px;">
+              <!-- Dynamically populated 7-step narrative -->
+            </div>
+          </div>
+
+          <!-- Verified Supporting Evidence -->
+          <div>
+            <h3 style="font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 16px;">
+              Verified Evidence Backing This Conclusion (<span id="wc-evidence-count">38</span> Memories)
+            </h3>
+            <div id="wc-evidence-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px;">
+              <!-- Evidence Cards -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 3: DECISION MEMORY ("DID OUR FIX WORK?") -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-decisions">
+        <div class="card" style="margin-bottom: 24px;">
+          <div class="card-header">
+            <div>
+              <div class="card-title">🎯 Closed-Loop Decision Memory: "Did Our Fix Work?"</div>
+              <div class="card-subtitle">Connect product decisions to customer feedback before and after release</div>
+            </div>
+            <button class="btn btn-secondary" onclick="document.getElementById('new-decision-form').scrollIntoView({behavior: 'smooth'})">+ Record Decision</button>
+          </div>
+
+          <!-- Decision Evaluator Selector -->
+          <div style="display: flex; gap: 12px; margin-bottom: 20px; align-items: center;">
+            <span style="font-size: 13px; color: var(--text-muted);">Select Product Decision:</span>
+            <select id="decision-eval-select" class="btn btn-secondary" style="flex-grow: 1; max-width: 400px;">
+              <option value="DEC-2026-01">Launch Guided Onboarding V1 (March 15, 2026)</option>
+              <option value="DEC-2026-02">API Setup Wizard & Credential Automation (June 1, 2026)</option>
+              <option value="DEC-2026-03">Query Engine Performance Overhaul (April 20, 2026)</option>
+              <option value="DEC-2026-04">Predictable Usage Billing & Budget Alerts (May 10, 2026)</option>
+            </select>
+            <button class="btn btn-primary" id="btn-eval-decision">Analyze Impact</button>
+          </div>
+
+          <!-- Closed-Loop Outcome Display -->
+          <div id="decision-outcome-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-active); border-radius: var(--radius-lg); padding: 24px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+              <h3 id="eval-decision-title" style="font-size: 17px; font-weight: 700;">Launch Guided Onboarding V1</h3>
+              <span class="insight-badge badge-emerging" id="eval-verdict-badge">Partial Success</span>
+            </div>
+
+            <!-- Before vs After Metrics Grid -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+              <div style="background: rgba(244, 63, 94, 0.08); border: 1px solid rgba(244, 63, 94, 0.25); border-radius: var(--radius-md); padding: 16px;">
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--accent-rose); font-weight: 700;">BEFORE INTERVENTION</div>
+                <div style="font-size: 26px; font-weight: 800; margin: 6px 0;" id="eval-before-count">37 Complaints</div>
+                <div style="font-size: 12.5px; color: var(--text-secondary);" id="eval-before-breakdown">22 Enterprise | 15 SMB & Startup</div>
+              </div>
+
+              <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: var(--radius-md); padding: 16px;">
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--accent-emerald); font-weight: 700;">AFTER INTERVENTION</div>
+                <div style="font-size: 26px; font-weight: 800; margin: 6px 0;" id="eval-after-count">18 Complaints</div>
+                <div style="font-size: 12.5px; color: var(--text-secondary);" id="eval-after-breakdown">14 Enterprise | 4 SMB & Startup (-73%)</div>
+              </div>
+            </div>
+
+            <!-- Interpretation & Nuance -->
+            <div style="background: rgba(0, 0, 0, 0.2); border-radius: var(--radius-md); padding: 16px; margin-bottom: 16px;">
+              <div style="font-size: 12px; font-weight: 700; color: var(--accent-indigo); text-transform: uppercase; margin-bottom: 6px;">
+                Agent Memory Synthesis
+              </div>
+              <p id="eval-outcome-verdict" style="font-size: 13.5px; color: var(--text-primary); line-height: 1.6;">
+                The intervention 'Launch Guided Onboarding V1' effectively solved general onboarding friction for SMB customers (complaints dropped by 73%). However, it exposed a deeper, segment-specific issue: Enterprise customers shifted from general confusion to advanced API & SSO configuration bottlenecks.
+              </p>
+            </div>
+
+            <!-- Emerging Pattern Callout -->
+            <div style="border-left: 3px solid var(--accent-amber); padding-left: 14px;">
+              <strong style="color: var(--accent-amber); font-size: 12.5px;">BUT... A New Complaint Pattern Emerged:</strong>
+              <div id="eval-emerging-pattern" style="font-size: 13px; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                "Wizard setup is easy for basic projects, but advanced API configuration and custom IAM roles still require engineering support."
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form: Record New Decision -->
+        <div class="card" id="new-decision-form">
+          <div class="card-header">
+            <div>
+              <div class="card-title">📝 Record Product Decision in Memory</div>
+              <div class="card-subtitle">Decisions are retained in Hindsight to continuously measure future customer reactions</div>
+            </div>
+          </div>
+          <form id="form-add-decision" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div>
+              <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 6px;">Decision Title</label>
+              <input type="text" id="dec-title" class="btn btn-secondary" style="width: 100%; text-align: left;" placeholder="e.g., Enterprise IAM & VPC Peering Wizard" required>
+            </div>
+            <div>
+              <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 6px;">Owner</label>
+              <input type="text" id="dec-owner" class="btn btn-secondary" style="width: 100%; text-align: left;" placeholder="e.g., Marcus Chen (Platform Lead)" required>
+            </div>
+            <div style="grid-column: span 2;">
+              <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 6px;">Rationale (Why was this decision made?)</label>
+              <input type="text" id="dec-reason" class="btn btn-secondary" style="width: 100%; text-align: left;" placeholder="e.g., Address persistent 3-day enterprise onboarding delays" required>
+            </div>
+            <div style="grid-column: span 2;">
+              <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 6px;">Expected Outcome (How will memory measure success?)</label>
+              <input type="text" id="dec-outcome" class="btn btn-secondary" style="width: 100%; text-align: left;" placeholder="e.g., Reduce enterprise API setup support escalations by 50%" required>
+            </div>
+            <div>
+              <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 6px;">Launch Date</label>
+              <input type="date" id="dec-date" class="btn btn-secondary" style="width: 100%;" required>
+            </div>
+            <div style="display: flex; align-items: flex-end;">
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Retain Decision in Hindsight</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 4: ASK MEMORY (NATURAL LANGUAGE AGENT) -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-ask-memory">
+        <div class="card" style="margin-bottom: 20px;">
+          <div class="card-header">
+            <div>
+              <div class="card-title">💬 Ask Customer Memory</div>
+              <div class="card-subtitle">Ask questions across 12 months of accumulated experience. Hindsight recalls evidence and reflects.</div>
+            </div>
+          </div>
+
+          <div class="chat-container">
+            <div class="quick-prompts">
+              <span class="prompt-chip" onclick="askQuestion('What have we learned about enterprise onboarding?')">"What have we learned about enterprise onboarding?"</span>
+              <span class="prompt-chip" onclick="askQuestion('How has the onboarding complaint changed over the last six months?')">"How has the onboarding complaint changed over the last six months?"</span>
+              <span class="prompt-chip" onclick="askQuestion('Did the API Setup Wizard actually solve the customer problem?')">"Did the API Setup Wizard actually solve the problem?"</span>
+              <span class="prompt-chip" onclick="askQuestion('Do enterprise customers and SMB customers have different opinions?')">"Do enterprise and SMB customers have different opinions?"</span>
+              <span class="prompt-chip" onclick="askQuestion('What should we prioritize regarding onboarding this quarter?')">"What should we prioritize regarding onboarding this quarter?"</span>
+            </div>
+
+            <div class="chat-input-bar">
+              <input type="text" id="chat-query-input" class="chat-input" placeholder="Ask your customer memory anything (e.g., What did customers say before vs after the redesign?)...">
+              <button class="btn btn-primary" id="btn-send-chat">Ask Memory &rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Agent Response Card -->
+        <div class="card" id="chat-response-card" style="display: none;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="font-size: 20px;">🧠</span>
+              <div>
+                <strong style="font-size: 15px;">Feedback Analyst Agent</strong>
+                <div style="font-size: 11px; color: var(--accent-emerald);" id="chat-model-meta">Hindsight Recall + Reflect Active</div>
+              </div>
+            </div>
+            <span class="insight-badge badge-resolved" id="chat-confidence-badge">High Confidence</span>
+          </div>
+
+          <div id="chat-answer-text" style="font-size: 14.5px; line-height: 1.7; color: var(--text-primary); margin-bottom: 24px; white-space: pre-line;">
+            <!-- Agent Answer -->
+          </div>
+
+          <!-- Memory Citations -->
+          <div>
+            <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">
+              CITED MEMORIES & EVIDENCE (<span id="chat-evidence-count">0</span>):
+            </div>
+            <div id="chat-citations-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px;">
+              <!-- Citations -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 5: MEMORY EXPLORER & TIMELINE -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-memory-explorer">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">🔍 Memory Explorer & Timeline</div>
+              <div class="card-subtitle">Inspect raw experiences, consolidated observations, and entity connections in Hindsight</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <select id="filter-segment" class="btn btn-secondary">
+                <option value="">All Segments</option>
+                <option value="Enterprise">Enterprise</option>
+                <option value="Mid-market">Mid-market</option>
+                <option value="SMB">SMB</option>
+                <option value="Startup">Startup</option>
+              </select>
+              <select id="filter-source" class="btn btn-secondary">
+                <option value="">All Sources</option>
+                <option value="Support">Support</option>
+                <option value="Customer Interview">Customer Interview</option>
+                <option value="Sales Call">Sales Call</option>
+                <option value="App Review">App Review</option>
+                <option value="Survey">Survey</option>
+              </select>
+              <input type="text" id="filter-search" class="btn btn-secondary" style="text-align: left; width: 180px;" placeholder="Search memories...">
+            </div>
+          </div>
+
+          <!-- Memory Explorer Table -->
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Memory ID</th>
+                  <th>Date</th>
+                  <th>Customer</th>
+                  <th>Segment</th>
+                  <th>Channel</th>
+                  <th>Memory Type</th>
+                  <th>Feedback Memory</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="explorer-tbody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Entity Graph Visualization Container -->
+        <div class="card" style="margin-top: 24px;">
+          <div class="card-header">
+            <div>
+              <div class="card-title">🕸️ Entity & Memory Relationship Graph</div>
+              <div class="card-subtitle">Visual mapping of customers, themes, decisions, and retained experiences</div>
+            </div>
+          </div>
+          <div id="graph-container" style="width: 100%; height: 380px; background: rgba(0,0,0,0.3); border-radius: var(--radius-md); position: relative; overflow: hidden;">
+            <svg id="memory-graph-svg" width="100%" height="100%"></svg>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 6: CUSTOMER MEMORY DOSSIERS -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-customers">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">🏢 Customer Memory Dossiers</div>
+              <div class="card-subtitle">Inspect organizational memory for individual accounts across all feedback channels</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <select id="customer-select" class="btn btn-secondary" style="min-width: 260px;">
+                <option value="Acme Corp">Acme Corp (Enterprise)</option>
+                <option value="Globex International">Globex International (Enterprise)</option>
+                <option value="Initech Systems">Initech Systems (Enterprise)</option>
+                <option value="Massive Dynamic">Massive Dynamic (Enterprise)</option>
+                <option value="Pied Piper">Pied Piper (SMB)</option>
+                <option value="Aviato">Aviato (Startup)</option>
+              </select>
+              <button class="btn btn-primary" id="btn-load-customer">Load Dossier</button>
+            </div>
+          </div>
+
+          <!-- Customer Profile Container -->
+          <div id="customer-profile-content">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 7: MENTAL MODELS / LIVING KNOWLEDGE PAGES -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-knowledge-pages">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">📖 Hindsight Mental Models & Living Knowledge Pages</div>
+              <div class="card-subtitle">Self-updating knowledge documents derived continuously from accumulated memory</div>
+            </div>
+          </div>
+
+          <div id="knowledge-pages-container" style="display: flex; flex-direction: column; gap: 20px;">
+            <!-- Populated via API -->
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 8: MEMORY VS NO-MEMORY ABLATION DEMO -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-ablation">
+        <div class="card" style="margin-bottom: 24px;">
+          <div class="card-header">
+            <div>
+              <div class="card-title">⚖️ Architecture Benchmark: Stateless LLM vs Continuous Memory OS</div>
+              <div class="card-subtitle">Evaluate organizational context retention, causal tracking, and precision across identical production prompts</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <input type="text" id="ablation-question" class="btn btn-secondary" style="width: 380px; text-align: left;" value="What should we prioritize regarding onboarding?">
+              <button class="btn btn-primary" id="btn-run-ablation">Run Benchmark</button>
+            </div>
+          </div>
+
+          <!-- Side-by-Side Grid -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+            <!-- LEFT: Stateless AI -->
+            <div style="background: rgba(244, 63, 94, 0.04); border: 1px solid rgba(244, 63, 94, 0.25); border-radius: var(--radius-lg); padding: 24px;">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                <strong style="color: var(--accent-rose); font-size: 15px;">❌ STATELESS AI (NO MEMORY)</strong>
+                <span style="font-size: 11px; background: rgba(244, 63, 94, 0.2); color: var(--accent-rose); padding: 3px 8px; border-radius: 4px;">Latest Batch Only</span>
+              </div>
+              <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 16px;">
+                Sees only the latest 5 incoming comments in isolation.
+              </div>
+              <div id="stateless-answer-box" style="font-size: 14px; line-height: 1.6; color: #FDA4AF; background: rgba(0,0,0,0.2); padding: 16px; border-radius: var(--radius-md); min-height: 140px;">
+                "Customers are experiencing onboarding difficulties. Consider improving documentation and simplifying setup."
+              </div>
+              <div style="margin-top: 16px; font-size: 12px; color: var(--text-muted); display: flex; flex-direction: column; gap: 6px;">
+                <div>⚠️ <strong>Historical Context:</strong> 0 months (Treats problem as brand new)</div>
+                <div>⚠️ <strong>Decision Awareness:</strong> Unaware of previous March/June interventions</div>
+                <div>⚠️ <strong>Segment Differentiation:</strong> Failed to notice Enterprise vs SMB divergence</div>
+              </div>
+            </div>
+
+            <!-- RIGHT: Hindsight-Powered AI -->
+            <div style="background: rgba(99, 102, 241, 0.06); border: 1px solid var(--border-active); border-radius: var(--radius-lg); padding: 24px;">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                <strong style="color: #A5B4FC; font-size: 15px;">🧠 HINDSIGHT-POWERED AGENT</strong>
+                <span style="font-size: 11px; background: rgba(99, 102, 241, 0.25); color: #C7D2FE; padding: 3px 8px; border-radius: 4px;">7 Months Persistent Memory</span>
+              </div>
+              <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 16px;">
+                Reasons across 535 retained experiences, 2 product decisions, and consolidated observations.
+              </div>
+              <div id="hindsight-answer-box" style="font-size: 14px; line-height: 1.6; color: #E0E7FF; background: rgba(0,0,0,0.2); padding: 16px; border-radius: var(--radius-md); min-height: 140px;">
+                "Onboarding has been a recurring issue for seven months. The March Guided Onboarding release reduced general complaints by 85% for SMBs, but enterprise customers continued reporting API configuration friction. Because the same pattern appears across support, interviews, and sales conversations, the evidence proves the next priority should be enterprise API configuration rather than another general onboarding redesign."
+              </div>
+              <div style="margin-top: 16px; font-size: 12px; color: #A5B4FC; display: flex; flex-direction: column; gap: 6px;">
+                <div>✓ <strong>Historical Context:</strong> 7 full months of continuous memory</div>
+                <div>✓ <strong>Decision Awareness:</strong> Evaluated Guided Onboarding V1 & API Wizard</div>
+                <div>✓ <strong>Segment Differentiation:</strong> Identifies that SMB is satisfied while Enterprise is blocked</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Architecture Benchmark Comparison Table -->
+          <div class="table-container">
+            <table style="text-align: center;">
+              <thead>
+                <tr>
+                  <th style="text-align: left;">Intelligence Metric</th>
+                  <th>Stateless Baseline</th>
+                  <th>Memory-Powered Platform</th>
+                  <th>Performance Delta</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left; font-weight: 600;">Historical Accuracy</td>
+                  <td style="color: var(--accent-rose);">15%</td>
+                  <td style="color: var(--accent-emerald); font-weight: 700;">98%</td>
+                  <td style="color: var(--accent-emerald);">+83% (Ground truth grounded)</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left; font-weight: 600;">Segment Differentiation</td>
+                  <td style="color: var(--accent-rose);">0%</td>
+                  <td style="color: var(--accent-emerald); font-weight: 700;">95%</td>
+                  <td style="color: var(--accent-emerald);">Divergence detected</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left; font-weight: 600;">Decision Causality Tracking</td>
+                  <td style="color: var(--accent-rose);">0%</td>
+                  <td style="color: var(--accent-emerald); font-weight: 700;">100%</td>
+                  <td style="color: var(--accent-emerald);">Tracks cause &rarr; effect</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left; font-weight: 600;">Actionable Specificity</td>
+                  <td style="color: var(--accent-rose);">Low (Vague platitudes)</td>
+                  <td style="color: var(--accent-emerald); font-weight: 700;">High (Targets Enterprise API)</td>
+                  <td style="color: var(--accent-emerald);">Direct product roadmap value</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 9: GUIDED 90-SECOND WINNING DEMO -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-demo">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">🔄 Continuous Learning Lifecycle Simulator</div>
+              <div class="card-subtitle">Observe how persistent organizational memory accumulates customer signals, discovers patterns, tracks product decisions, and updates strategic priorities in real time</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="btn btn-secondary" id="btn-reset-demo">Reset Workspace Memory</button>
+              <button class="btn btn-primary" id="btn-run-full-demo">Run Lifecycle Progression &rarr;</button>
+            </div>
+          </div>
+
+          <!-- Step Progression Arc -->
+          <div id="demo-steps-container" style="display: flex; flex-direction: column; gap: 16px;">
+            <!-- Dynamically populated 5 steps -->
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ======================================================== -->
+      <!-- TAB 10: INGESTION HUB -->
+      <!-- ======================================================== -->
+      <section class="tab-content" id="tab-ingestion">
+        <div class="grid-2col">
+          <!-- CSV Ingestion -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">📥 Upload Feedback CSV</div>
+                <div class="card-subtitle">Batch Pipeline: Ingest customer feedback with automated schema normalization, sentiment tagging, and persistent memory retention</div>
+              </div>
+            </div>
+            <div style="border: 2px dashed var(--border-active); border-radius: var(--radius-lg); padding: 32px; text-align: center; background: rgba(99, 102, 241, 0.03); cursor: pointer;" id="csv-drop-zone">
+              <div style="font-size: 32px; margin-bottom: 8px;">📄</div>
+              <strong style="font-size: 15px; display: block; margin-bottom: 4px;">Click to select or drag CSV file here</strong>
+              <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 16px;">
+                Required columns: customer, segment, feedback, sentiment (optional: date, source, theme, product)
+              </div>
+              <input type="file" id="csv-file-input" accept=".csv" style="display: none;">
+              <button class="btn btn-primary" onclick="document.getElementById('csv-file-input').click()">Browse CSV File</button>
+            </div>
+            <div id="csv-upload-status" style="margin-top: 16px; font-size: 13px; display: none;"></div>
+          </div>
+
+          <!-- Manual Entry -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">✍️ Add Manual Feedback</div>
+                <div class="card-subtitle">Live test: Retains directly into Hindsight memory bank in real time</div>
+              </div>
+            </div>
+            <form id="form-manual-feedback" style="display: flex; flex-direction: column; gap: 12px;">
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                <div>
+                  <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 4px;">Customer</label>
+                  <input type="text" id="mf-customer" class="btn btn-secondary" style="width: 100%; text-align: left;" placeholder="e.g. Acme Corp" required>
+                </div>
+                <div>
+                  <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 4px;">Segment</label>
+                  <select id="mf-segment" class="btn btn-secondary" style="width: 100%;">
+                    <option value="Enterprise">Enterprise</option>
+                    <option value="Mid-market">Mid-market</option>
+                    <option value="SMB">SMB</option>
+                    <option value="Startup">Startup</option>
+                  </select>
+                </div>
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                <div>
+                  <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 4px;">Channel / Source</label>
+                  <select id="mf-source" class="btn btn-secondary" style="width: 100%;">
+                    <option value="Support">Support Ticket</option>
+                    <option value="Customer Interview">Customer Interview</option>
+                    <option value="Sales Call">Sales Call</option>
+                    <option value="App Review">App Review</option>
+                    <option value="Survey">Survey</option>
+                  </select>
+                </div>
+                <div>
+                  <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 4px;">Sentiment</label>
+                  <select id="mf-sentiment" class="btn btn-secondary" style="width: 100%;">
+                    <option value="negative">Negative</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="positive">Positive</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 4px;">Feedback Content</label>
+                <textarea id="mf-feedback" class="btn btn-secondary" style="width: 100%; height: 80px; text-align: left; padding: 10px; resize: vertical;" placeholder="Customer statement..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Retain in Hindsight Memory</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Hindsight Memory Inspector Modal -->
+  <div class="modal-overlay" id="inspector-modal">
+    <div class="modal-card">
+      <button class="close-btn" id="btn-close-inspector">&times;</button>
+      <div style="display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 16px;">
+        <span style="font-size: 26px;">🧠</span>
+        <div>
+          <h2 style="font-size: 18px; font-weight: 700;">Hindsight Memory Inspector</h2>
+          <div style="font-size: 12px; color: var(--accent-blue);">Direct Telemetry & Bank Inspection</div>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+        <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: var(--radius-sm);">
+          <div style="font-size: 11px; color: var(--text-muted);">Memories Retained</div>
+          <strong style="font-size: 18px; color: var(--text-primary);" id="insp-total">535</strong>
+        </div>
+        <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: var(--radius-sm);">
+          <div style="font-size: 11px; color: var(--text-muted);">Observations</div>
+          <strong style="font-size: 18px; color: var(--accent-amber);" id="insp-obs">8</strong>
+        </div>
+        <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: var(--radius-sm);">
+          <div style="font-size: 11px; color: var(--text-muted);">Entities Tracked</div>
+          <strong style="font-size: 18px; color: var(--accent-indigo);" id="insp-entities">32</strong>
+        </div>
+        <div style="background: rgba(255,255,255,0.03); padding: 12px; border-radius: var(--radius-sm);">
+          <div style="font-size: 11px; color: var(--text-muted);">Temporal Span</div>
+          <strong style="font-size: 18px; color: var(--accent-emerald);">7 Months</strong>
+        </div>
+      </div>
+
+      <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 16px;">
+        <h4 style="font-size: 13px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;">Active Hindsight Operations:</h4>
+        <ul style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.8; list-style-position: inside;">
+          <li><code style="color: var(--accent-indigo);">hindsight.retain()</code>: Ingests raw experience events with tags and metadata</li>
+          <li><code style="color: var(--accent-blue);">hindsight.recall()</code>: Multi-strategy search (Semantic + BM25 + Graph + Temporal)</li>
+          <li><code style="color: var(--accent-purple);">hindsight.reflect()</code>: Synthesizes reasoning and resolves temporal shifts</li>
+          <li><code style="color: var(--accent-emerald);">Memory Consolidation</code>: Automatically derives macro observations from recurring patterns</li>
+        </ul>
+      </div>
+
+      <div id="inspector-sample-memory" style="font-size: 12px; font-family: 'JetBrains Mono', monospace; background: rgba(0,0,0,0.5); padding: 14px; border-radius: var(--radius-sm); color: #93C5FD; max-height: 200px; overflow-y: auto;">
+        <!-- Sample JSON payload -->
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

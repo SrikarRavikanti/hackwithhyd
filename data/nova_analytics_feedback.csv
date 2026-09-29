@@ -1,0 +1,536 @@
+feedback_id,date,source,customer,segment,product,feedback,sentiment,theme
+F1121,2025-10-01,Sales Call,Raviga Capital,Startup,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1495,2025-10-02,Customer Interview,Globex International,Enterprise,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1321,2025-10-04,Customer Interview,Monsters Inc,SMB,Nova Analytics,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1331,2025-10-04,App Review,Sterling Cooper,SMB,Nova Connect,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1283,2025-10-08,Sales Call,Strickland Propane,SMB,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1437,2025-10-12,Support,Kramerica Labs,Startup,Nova API,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1320,2025-10-15,Customer Interview,Globex International,Enterprise,Nova API,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1497,2025-10-17,Sales Call,Massive Dynamic,Enterprise,Nova API,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1115,2025-10-18,Sales Call,Strickland Propane,SMB,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1402,2025-10-18,Customer Interview,Soylent Corp,Mid-market,Nova Analytics,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1389,2025-10-19,Sales Call,Umbrella Corp,Enterprise,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1140,2025-10-20,Sales Call,Vandelay Industries,SMB,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1351,2025-10-21,Customer Interview,Hooli Enterprise,Enterprise,Nova Connect,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1390,2025-10-22,Sales Call,Initech Systems,Enterprise,Nova API,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1399,2025-10-22,Sales Call,Endive Logic,Startup,Nova Connect,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1364,2025-10-23,App Review,Oscorp Tech,Mid-market,Nova API,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1384,2025-10-23,App Review,Globex International,Enterprise,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1288,2025-10-24,Support,Bachmanity,Startup,Nova API,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1446,2025-10-24,Support,Raviga Capital,Startup,Nova Analytics,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1525,2025-10-24,Survey,Strickland Propane,SMB,Nova Analytics,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1392,2025-10-25,Sales Call,Aperture Science,Mid-market,Nova API,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1434,2025-10-26,Sales Call,Dunder Mifflin,Mid-market,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1110,2025-10-28,Survey,Pied Piper,SMB,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1372,2025-10-28,App Review,Gekko & Co,SMB,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1400,2025-10-30,Support,SeeFood AI,Startup,Nova Connect,Would like automated exports directly to S3 buckets.,neutral,export
+F1472,2025-10-31,Support,Bluth Company,SMB,Nova Connect,Would like automated exports directly to S3 buckets.,neutral,export
+F1116,2025-11-01,Sales Call,Bluth Company,SMB,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1510,2025-11-01,Survey,Bachmanity,Startup,Nova Connect,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1302,2025-11-02,App Review,Bachmanity,Startup,Nova API,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1383,2025-11-04,Survey,Hooli Enterprise,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1333,2025-11-06,App Review,Wonka Industries,Mid-market,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1127,2025-11-07,Support,Wonka Industries,Mid-market,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1346,2025-11-07,Sales Call,Massive Dynamic,Enterprise,Nova API,Would like automated exports directly to S3 buckets.,neutral,export
+F1429,2025-11-07,Support,Raviga Capital,Startup,Nova Analytics,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1178,2025-11-08,App Review,Aviato,Startup,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1376,2025-11-10,Support,Pied Piper Cloud,Startup,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1397,2025-11-10,Sales Call,Sterling Cooper,SMB,Nova Connect,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1216,2025-11-11,Survey,Kramerica Labs,Startup,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1373,2025-11-11,Sales Call,Strickland Propane,SMB,Nova Analytics,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1313,2025-11-13,Support,Pied Piper Cloud,Startup,Nova API,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1227,2025-11-15,Sales Call,Initech Systems,Enterprise,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1337,2025-11-15,App Review,Nucleus App,Startup,Nova Analytics,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1218,2025-11-16,Customer Interview,Pied Piper,SMB,Nova Analytics,The dark mode interface is gorgeous and easy on the eyes during late night query sessions.,positive,ux
+F1371,2025-11-16,Customer Interview,Soylent Corp,Mid-market,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1492,2025-11-16,Survey,Black Mesa Research,Mid-market,Nova API,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1517,2025-11-17,Survey,Hooli Enterprise,Enterprise,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1311,2025-11-18,Sales Call,Nucleus App,Startup,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1354,2025-11-18,Survey,Prestige Worldwide,SMB,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1293,2025-11-20,Sales Call,Endive Logic,Startup,Nova Connect,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1505,2025-11-21,Survey,Dunder Mifflin,Mid-market,Nova Analytics,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1350,2025-11-22,Sales Call,Soylent Corp,Mid-market,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1224,2025-11-23,Customer Interview,Bluth Company,SMB,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1184,2025-11-24,Sales Call,Endive Logic,Startup,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1285,2025-11-25,Customer Interview,Aviato,Startup,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1309,2025-11-28,Survey,SeeFood AI,Startup,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1228,2025-11-29,App Review,Pied Piper,SMB,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1126,2025-11-30,Sales Call,Prestige Worldwide,SMB,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1500,2025-11-30,Customer Interview,Cyberdyne Systems,Mid-market,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1521,2025-11-30,App Review,Black Mesa Research,Mid-market,Nova Analytics,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1189,2025-12-01,Customer Interview,Pied Piper,SMB,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1131,2025-12-02,Customer Interview,Kramerica Labs,Startup,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1433,2025-12-02,Sales Call,Bluth Company,SMB,Nova API,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1134,2025-12-03,Support,Massive Dynamic,Enterprise,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1420,2025-12-03,Survey,Cyberdyne Systems,Mid-market,Nova Analytics,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1251,2025-12-04,Survey,Kramerica Labs,Startup,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1109,2025-12-06,Customer Interview,Globex International,Enterprise,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1138,2025-12-06,Customer Interview,Pied Piper Cloud,Startup,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1314,2025-12-06,Survey,Stark Industries,Enterprise,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1357,2025-12-06,Survey,Monsters Inc,SMB,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1467,2025-12-10,Support,Vandelay Industries,SMB,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1470,2025-12-10,Support,Pied Piper Cloud,Startup,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1106,2025-12-11,Support,Raviga Capital,Startup,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1253,2025-12-13,App Review,Nucleus App,Startup,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1509,2025-12-13,Survey,Bluth Company,SMB,Nova Analytics,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1464,2025-12-14,Sales Call,Aviato,Startup,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1118,2025-12-15,Survey,Raviga Capital,Startup,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1193,2025-12-16,Sales Call,Wonka Industries,Mid-market,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1363,2025-12-18,Customer Interview,Cyberdyne Systems,Mid-market,Nova Analytics,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1361,2025-12-19,Support,Aperture Science,Mid-market,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1503,2025-12-19,Sales Call,Dunder Mifflin,Mid-market,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1111,2025-12-20,App Review,SeeFood AI,Startup,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1192,2025-12-20,Sales Call,Sterling Cooper,SMB,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1325,2025-12-20,Survey,Hooli Enterprise,Enterprise,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1235,2025-12-21,Sales Call,Dunder Mifflin,Mid-market,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1485,2025-12-21,App Review,Wayne Enterprises,Enterprise,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1370,2025-12-22,Sales Call,Wayne Enterprises,Enterprise,Nova API,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1260,2025-12-25,Sales Call,Stark Industries,Enterprise,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1530,2025-12-26,Customer Interview,Oscorp Tech,Mid-market,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1264,2025-12-29,Support,Tyrell Corporation,Mid-market,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1473,2025-12-29,App Review,Wonka Industries,Mid-market,Nova Analytics,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1343,2025-12-30,App Review,Soylent Corp,Mid-market,Nova API,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1221,2026-01-01,Survey,Endive Logic,Startup,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1014,2026-01-03,Customer Interview,Aperture Science,Mid-market,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1394,2026-01-04,App Review,Endive Logic,Startup,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1407,2026-01-04,App Review,Wayne Enterprises,Enterprise,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1023,2026-01-05,Customer Interview,Raviga Capital,Startup,Nova Analytics,We had to schedule two support calls just to get our first dashboard running.,negative,onboarding
+F1031,2026-01-05,App Review,SeeFood AI,Startup,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1230,2026-01-05,Survey,Bachmanity,Startup,Nova Analytics,The dark mode interface is gorgeous and easy on the eyes during late night query sessions.,positive,ux
+F1519,2026-01-05,Survey,Initech Systems,Enterprise,Nova Connect,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1012,2026-01-06,Survey,Wayne Enterprises,Enterprise,Nova Analytics,Getting started was confusing. There is no walkthrough when you first log in.,negative,onboarding
+F1276,2026-01-06,Survey,Gekko & Co,SMB,Nova API,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1009,2026-01-07,Support,Black Mesa Research,Mid-market,Nova Analytics,We had to schedule two support calls just to get our first dashboard running.,negative,onboarding
+F1366,2026-01-08,Sales Call,Dunder Mifflin,Mid-market,Nova Connect,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1002,2026-01-09,Support,Dunder Mifflin,Mid-market,Nova Analytics,Dashboard setup is difficult to understand. Documentation lacks a clean step-by-step tutorial.,negative,onboarding
+F1188,2026-01-09,Sales Call,Gekko & Co,SMB,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1527,2026-01-09,Sales Call,Bachmanity,Startup,Nova Analytics,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1025,2026-01-10,Sales Call,Raviga Capital,Startup,Nova Analytics,Getting started was confusing. There is no walkthrough when you first log in.,negative,onboarding
+F1194,2026-01-10,Support,Acme Corp,Enterprise,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1271,2026-01-10,App Review,Nucleus App,Startup,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1342,2026-01-10,Customer Interview,Stark Industries,Enterprise,Nova Connect,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1445,2026-01-10,Survey,Strickland Propane,SMB,Nova Connect,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1176,2026-01-11,App Review,Dunder Mifflin,Mid-market,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1005,2026-01-13,Survey,Globex International,Enterprise,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1117,2026-01-13,Sales Call,Monsters Inc,SMB,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1004,2026-01-14,Customer Interview,Globex International,Enterprise,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1028,2026-01-15,Customer Interview,Raviga Capital,Startup,Nova Analytics,We had to schedule two support calls just to get our first dashboard running.,negative,onboarding
+F1129,2026-01-15,Survey,Umbrella Corp,Enterprise,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1297,2026-01-15,Survey,Black Mesa Research,Mid-market,Nova Analytics,API response times are consistently solid under 80ms.,positive,reliability
+F1119,2026-01-16,App Review,Cyberdyne Systems,Mid-market,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1132,2026-01-17,Customer Interview,Acme Corp,Enterprise,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1295,2026-01-17,Survey,Nucleus App,Startup,Nova Analytics,API response times are consistently solid under 80ms.,positive,reliability
+F1330,2026-01-17,Customer Interview,Acme Corp,Enterprise,Nova API,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1008,2026-01-18,Customer Interview,SeeFood AI,Startup,Nova Analytics,We had to schedule two support calls just to get our first dashboard running.,negative,onboarding
+F1016,2026-01-18,App Review,Stark Industries,Enterprise,Nova Analytics,Getting started was confusing. There is no walkthrough when you first log in.,negative,onboarding
+F1360,2026-01-18,Sales Call,Strickland Propane,SMB,Nova API,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1466,2026-01-18,Customer Interview,Pied Piper,SMB,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1035,2026-01-19,App Review,Prestige Worldwide,SMB,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1122,2026-01-19,Survey,Sterling Cooper,SMB,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1327,2026-01-19,Survey,Endive Logic,Startup,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1507,2026-01-20,Support,Endive Logic,Startup,Nova Analytics,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1123,2026-01-22,App Review,Bluth Company,SMB,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1339,2026-01-22,Sales Call,Monsters Inc,SMB,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1010,2026-01-23,Sales Call,Aviato,Startup,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1137,2026-01-23,Customer Interview,SeeFood AI,Startup,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1501,2026-01-23,Support,Raviga Capital,Startup,Nova Analytics,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1017,2026-01-24,Sales Call,Strickland Propane,SMB,Nova Analytics,Dashboard setup is difficult to understand. Documentation lacks a clean step-by-step tutorial.,negative,onboarding
+F1282,2026-01-24,App Review,Nucleus App,Startup,Nova Connect,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1020,2026-01-25,Sales Call,Oscorp Tech,Mid-market,Nova Analytics,Getting started was confusing. There is no walkthrough when you first log in.,negative,onboarding
+F1310,2026-01-25,App Review,Black Mesa Research,Mid-market,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1135,2026-01-27,Survey,Nucleus App,Startup,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1180,2026-01-27,Sales Call,Gekko & Co,SMB,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1533,2026-01-27,Support,Bachmanity,Startup,Nova Connect,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1003,2026-01-28,Support,Hooli Enterprise,Enterprise,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1027,2026-01-28,Survey,Pied Piper,SMB,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1006,2026-01-29,Survey,Bachmanity,Startup,Nova Analytics,Dashboard setup is difficult to understand. Documentation lacks a clean step-by-step tutorial.,negative,onboarding
+F1258,2026-01-29,Sales Call,Initech Systems,Enterprise,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1289,2026-01-29,Survey,Kramerica Labs,Startup,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1032,2026-01-30,Survey,Aviato,Startup,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1124,2026-01-30,Customer Interview,Black Mesa Research,Mid-market,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1128,2026-01-30,Survey,Initech Systems,Enterprise,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1272,2026-01-30,App Review,Pied Piper Cloud,Startup,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1378,2026-01-30,Sales Call,SeeFood AI,Startup,Nova Analytics,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1414,2026-01-30,App Review,Aperture Science,Mid-market,Nova Analytics,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1139,2026-02-02,Customer Interview,Vandelay Industries,SMB,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1296,2026-02-02,Customer Interview,Massive Dynamic,Enterprise,Nova Connect,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1454,2026-02-02,Support,Aviato,Startup,Nova Connect,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1506,2026-02-03,Support,Endive Logic,Startup,Nova API,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1482,2026-02-05,Support,Cyberdyne Systems,Mid-market,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1299,2026-02-06,Customer Interview,Soylent Corp,Mid-market,Nova Analytics,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1422,2026-02-06,Customer Interview,Sterling Cooper,SMB,Nova Connect,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1391,2026-02-07,Support,Raviga Capital,Startup,Nova Connect,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1516,2026-02-08,Customer Interview,Cyberdyne Systems,Mid-market,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1125,2026-02-09,Survey,Hooli Enterprise,Enterprise,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1030,2026-02-10,Customer Interview,Wayne Enterprises,Enterprise,Nova Analytics,Dashboard setup is difficult to understand. Documentation lacks a clean step-by-step tutorial.,negative,onboarding
+F1133,2026-02-10,App Review,Tyrell Corporation,Mid-market,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1024,2026-02-11,App Review,Bluth Company,SMB,Nova Analytics,Dashboard setup is difficult to understand. Documentation lacks a clean step-by-step tutorial.,negative,onboarding
+F1408,2026-02-12,Sales Call,Aviato,Startup,Nova Connect,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1182,2026-02-13,App Review,Hooli Enterprise,Enterprise,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1301,2026-02-13,Support,Bluth Company,SMB,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1452,2026-02-13,Survey,Globex International,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1018,2026-02-14,Support,Black Mesa Research,Mid-market,Nova Analytics,We had to schedule two support calls just to get our first dashboard running.,negative,onboarding
+F1232,2026-02-14,Survey,Massive Dynamic,Enterprise,Nova Analytics,The dark mode interface is gorgeous and easy on the eyes during late night query sessions.,positive,ux
+F1243,2026-02-14,Support,Prestige Worldwide,SMB,Nova Analytics,Slack webhook alerts for anomaly detection alert us within seconds of metric drops.,positive,integrations
+F1395,2026-02-14,Support,Kramerica Labs,Startup,Nova Connect,Would like automated exports directly to S3 buckets.,neutral,export
+F1483,2026-02-14,Sales Call,Aviato,Startup,Nova API,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1108,2026-02-15,Sales Call,Raviga Capital,Startup,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1114,2026-02-15,Customer Interview,Acme Corp,Enterprise,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1219,2026-02-15,Survey,Globex International,Enterprise,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1011,2026-02-16,App Review,Pied Piper,SMB,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1019,2026-02-16,Customer Interview,Oscorp Tech,Mid-market,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1001,2026-02-17,Sales Call,Wayne Enterprises,Enterprise,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1026,2026-02-17,Survey,Cyberdyne Systems,Mid-market,Nova Analytics,Dashboard setup is difficult to understand. Documentation lacks a clean step-by-step tutorial.,negative,onboarding
+F1007,2026-02-18,Customer Interview,Vandelay Industries,SMB,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1029,2026-02-18,Support,Kramerica Labs,Startup,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1034,2026-02-18,Sales Call,Wayne Enterprises,Enterprise,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1274,2026-02-18,Support,Globex International,Enterprise,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1463,2026-02-18,Sales Call,Pied Piper Cloud,Startup,Nova Analytics,Would like automated exports directly to S3 buckets.,neutral,export
+F1242,2026-02-19,App Review,Cyberdyne Systems,Mid-market,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1294,2026-02-19,Customer Interview,Gekko & Co,SMB,Nova Analytics,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1022,2026-02-21,Sales Call,Wonka Industries,Mid-market,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1021,2026-02-23,Support,Wonka Industries,Mid-market,Nova Analytics,We had to schedule two support calls just to get our first dashboard running.,negative,onboarding
+F1120,2026-02-23,Sales Call,Tyrell Corporation,Mid-market,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1328,2026-02-23,Survey,Gekko & Co,SMB,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1015,2026-02-24,Customer Interview,Sterling Cooper,SMB,Nova Analytics,The onboarding process is confusing and our team spent 3 days trying to figure out initial project configuration.,negative,onboarding
+F1275,2026-02-24,Customer Interview,Massive Dynamic,Enterprise,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1409,2026-02-24,App Review,Endive Logic,Startup,Nova Analytics,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1033,2026-02-25,Support,Pied Piper,SMB,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1112,2026-02-25,Customer Interview,Wayne Enterprises,Enterprise,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1316,2026-02-25,Survey,SeeFood AI,Startup,Nova API,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1013,2026-02-26,Sales Call,Sterling Cooper,SMB,Nova Analytics,Initial onboarding navigation feels clunky. Lost 4 hours trying to find data connectors.,negative,onboarding
+F1238,2026-02-27,Survey,Soylent Corp,Mid-market,Nova Analytics,Would love a native HubSpot connector to pull closed-won CRM attribution.,neutral,integrations
+F1381,2026-02-27,App Review,Dunder Mifflin,Mid-market,Nova Analytics,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1281,2026-03-01,Sales Call,Oscorp Tech,Mid-market,Nova Analytics,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1186,2026-03-02,Survey,Monsters Inc,SMB,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1244,2026-03-02,Survey,Sterling Cooper,SMB,Nova Analytics,Slack webhook alerts for anomaly detection alert us within seconds of metric drops.,positive,integrations
+F1461,2026-03-02,Customer Interview,Dunder Mifflin,Mid-market,Nova API,Would like automated exports directly to S3 buckets.,neutral,export
+F1475,2026-03-02,Survey,Sterling Cooper,SMB,Nova Connect,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1412,2026-03-03,Customer Interview,Umbrella Corp,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1513,2026-03-03,App Review,Bachmanity,Startup,Nova Analytics,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1514,2026-03-03,Customer Interview,Pied Piper Cloud,Startup,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1191,2026-03-04,Sales Call,Aperture Science,Mid-market,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1179,2026-03-05,Customer Interview,Bluth Company,SMB,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1423,2026-03-05,Survey,Vandelay Industries,SMB,Nova Connect,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1136,2026-03-06,Survey,Bluth Company,SMB,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1523,2026-03-07,Sales Call,Aviato,Startup,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1249,2026-03-12,App Review,Bachmanity,Startup,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1181,2026-03-13,Customer Interview,Vandelay Industries,SMB,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1411,2026-03-13,Sales Call,Endive Logic,Startup,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1431,2026-03-13,Sales Call,Soylent Corp,Mid-market,Nova API,Would like automated exports directly to S3 buckets.,neutral,export
+F1448,2026-03-13,Customer Interview,Cyberdyne Systems,Mid-market,Nova API,Would like automated exports directly to S3 buckets.,neutral,export
+F1107,2026-03-14,Survey,Vandelay Industries,SMB,Nova Analytics,"Frequent query timeouts when filtering more than 500,000 events.",negative,performance
+F1247,2026-03-14,Customer Interview,Aviato,Startup,Nova Analytics,Would love a native HubSpot connector to pull closed-won CRM attribution.,neutral,integrations
+F1306,2026-03-14,Survey,Endive Logic,Startup,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1349,2026-03-14,Survey,Initech Systems,Enterprise,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1217,2026-03-15,Survey,Initech Systems,Enterprise,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1421,2026-03-15,Customer Interview,Monsters Inc,SMB,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1261,2026-03-16,Support,Globex International,Enterprise,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1324,2026-03-16,Survey,Strickland Propane,SMB,Nova Connect,Would like automated exports directly to S3 buckets.,neutral,export
+F1336,2026-03-16,Customer Interview,Wayne Enterprises,Enterprise,Nova Connect,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1435,2026-03-17,Survey,Bachmanity,Startup,Nova Connect,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1190,2026-03-18,Customer Interview,Bluth Company,SMB,Nova Analytics,Surprise $450 compute overage bill this month. We need predictable spend limits.,negative,pricing
+F1036,2026-03-20,Sales Call,Prestige Worldwide,SMB,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1048,2026-03-20,Support,Strickland Propane,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1246,2026-03-20,Survey,Pied Piper Cloud,Startup,Nova Analytics,Would love a native HubSpot connector to pull closed-won CRM attribution.,neutral,integrations
+F1520,2026-03-20,Sales Call,Black Mesa Research,Mid-market,Nova Analytics,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1187,2026-03-21,Sales Call,Gekko & Co,SMB,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1479,2026-03-22,Sales Call,Tyrell Corporation,Mid-market,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1387,2026-03-23,Customer Interview,Initech Systems,Enterprise,Nova Connect,Would like automated exports directly to S3 buckets.,neutral,export
+F1177,2026-03-26,Survey,Dunder Mifflin,Mid-market,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1496,2026-03-26,Support,Umbrella Corp,Enterprise,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1066,2026-03-27,Survey,Raviga Capital,Startup,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1067,2026-03-27,Support,Vandelay Industries,SMB,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1068,2026-03-27,Survey,Kramerica Labs,Startup,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1465,2026-03-27,App Review,Sterling Cooper,SMB,Nova Connect,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1049,2026-03-28,Support,Vandelay Industries,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1069,2026-03-28,Survey,Sterling Cooper,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1130,2026-03-28,App Review,Aperture Science,Mid-market,Nova Analytics,Performance is sluggish during peak hours. Analytics widgets spin forever.,negative,performance
+F1059,2026-03-29,App Review,Pied Piper Cloud,Startup,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1318,2026-03-29,Survey,Pied Piper Cloud,Startup,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1041,2026-03-30,Support,Vandelay Industries,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1113,2026-03-31,App Review,Pied Piper,SMB,Nova Analytics,Dashboards take over 12 seconds to load when querying our Q4 historical data.,negative,performance
+F1053,2026-04-01,Support,Nucleus App,Startup,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1055,2026-04-01,Support,Pied Piper Cloud,Startup,Nova Analytics,The new Guided Onboarding is fantastic! Got our startup fully onboarded in under 15 minutes.,positive,onboarding
+F1385,2026-04-01,Support,Pied Piper,SMB,Nova API,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1056,2026-04-02,Customer Interview,Endive Logic,Startup,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1300,2026-04-02,Customer Interview,Globex International,Enterprise,Nova Connect,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1484,2026-04-03,Customer Interview,Acme Corp,Enterprise,Nova Analytics,Would like automated exports directly to S3 buckets.,neutral,export
+F1046,2026-04-04,Customer Interview,Pied Piper Cloud,Startup,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1403,2026-04-04,App Review,Dunder Mifflin,Mid-market,Nova Connect,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1442,2026-04-04,Survey,Massive Dynamic,Enterprise,Nova API,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1278,2026-04-05,Customer Interview,Endive Logic,Startup,Nova Analytics,API response times are consistently solid under 80ms.,positive,reliability
+F1352,2026-04-05,Sales Call,Endive Logic,Startup,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1441,2026-04-06,Support,Strickland Propane,SMB,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1347,2026-04-07,Sales Call,Endive Logic,Startup,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1065,2026-04-08,Customer Interview,Nucleus App,Startup,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1292,2026-04-08,Customer Interview,Vandelay Industries,SMB,Nova API,API response times are consistently solid under 80ms.,positive,reliability
+F1369,2026-04-09,Survey,Massive Dynamic,Enterprise,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1061,2026-04-10,App Review,Sterling Cooper,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1262,2026-04-10,App Review,Sterling Cooper,SMB,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1312,2026-04-10,Customer Interview,Bluth Company,SMB,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1358,2026-04-11,Sales Call,Hooli Enterprise,Enterprise,Nova Analytics,Would like automated exports directly to S3 buckets.,neutral,export
+F1499,2026-04-11,Support,Aviato,Startup,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1058,2026-04-12,Sales Call,Bluth Company,SMB,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1518,2026-04-12,Survey,Aperture Science,Mid-market,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1332,2026-04-13,Survey,SeeFood AI,Startup,Nova Connect,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1367,2026-04-14,Survey,Endive Logic,Startup,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1183,2026-04-15,App Review,Dunder Mifflin,Mid-market,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1248,2026-04-15,Customer Interview,Dunder Mifflin,Mid-market,Nova Analytics,Slack webhook alerts for anomaly detection alert us within seconds of metric drops.,positive,integrations
+F1044,2026-04-16,Survey,Aviato,Startup,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1051,2026-04-16,Survey,Aviato,Startup,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1062,2026-04-16,App Review,Kramerica Labs,Startup,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1052,2026-04-20,App Review,Bluth Company,SMB,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1444,2026-04-20,Sales Call,Wayne Enterprises,Enterprise,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1329,2026-04-21,Survey,Monsters Inc,SMB,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1416,2026-04-22,App Review,Hooli Enterprise,Enterprise,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1226,2026-04-24,Survey,Sterling Cooper,SMB,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1037,2026-04-27,Survey,Prestige Worldwide,SMB,Nova Analytics,The new Guided Onboarding is fantastic! Got our startup fully onboarded in under 15 minutes.,positive,onboarding
+F1185,2026-04-27,Customer Interview,Wonka Industries,Mid-market,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1236,2026-04-27,Support,Acme Corp,Enterprise,Nova Analytics,Slack webhook alerts for anomaly detection alert us within seconds of metric drops.,positive,integrations
+F1040,2026-04-28,Customer Interview,Monsters Inc,SMB,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1195,2026-04-28,Customer Interview,Massive Dynamic,Enterprise,Nova Analytics,Usage-based billing is hard to predict for our finance team. Please offer fixed monthly caps.,negative,pricing
+F1223,2026-04-28,Sales Call,Pied Piper Cloud,Startup,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1315,2026-04-29,Sales Call,Prestige Worldwide,SMB,Nova Connect,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1456,2026-04-29,Survey,Soylent Corp,Mid-market,Nova Connect,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1469,2026-04-30,Sales Call,Wonka Industries,Mid-market,Nova Connect,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1279,2026-05-01,Customer Interview,Sterling Cooper,SMB,Nova Analytics,Would like automated exports directly to S3 buckets.,neutral,export
+F1047,2026-05-02,Support,Strickland Propane,SMB,Nova Analytics,The new Guided Onboarding is fantastic! Got our startup fully onboarded in under 15 minutes.,positive,onboarding
+F1147,2026-05-02,Sales Call,Aviato,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1382,2026-05-02,Customer Interview,Gekko & Co,SMB,Nova Connect,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1451,2026-05-02,Survey,Prestige Worldwide,SMB,Nova API,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1515,2026-05-02,Survey,Massive Dynamic,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1504,2026-05-03,Survey,Wayne Enterprises,Enterprise,Nova Analytics,API response times are consistently solid under 80ms.,positive,reliability
+F1038,2026-05-06,Customer Interview,Gekko & Co,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1063,2026-05-07,Support,Vandelay Industries,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1305,2026-05-07,Support,Pied Piper Cloud,Startup,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1150,2026-05-08,App Review,SeeFood AI,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1440,2026-05-09,Customer Interview,Acme Corp,Enterprise,Nova API,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1045,2026-05-10,Sales Call,Gekko & Co,SMB,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1070,2026-05-10,Support,Sterling Cooper,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1169,2026-05-11,Sales Call,Wayne Enterprises,Enterprise,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1259,2026-05-11,Support,Wonka Industries,Mid-market,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1393,2026-05-12,App Review,Wayne Enterprises,Enterprise,Nova Connect,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1054,2026-05-13,App Review,Nucleus App,Startup,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1155,2026-05-13,Sales Call,Nucleus App,Startup,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1233,2026-05-13,App Review,Cyberdyne Systems,Mid-market,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1252,2026-05-14,Support,Prestige Worldwide,SMB,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1455,2026-05-14,Sales Call,Wayne Enterprises,Enterprise,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1269,2026-05-15,Sales Call,Oscorp Tech,Mid-market,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1345,2026-05-15,Sales Call,Endive Logic,Startup,Nova API,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1145,2026-05-16,Customer Interview,Nucleus App,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1064,2026-05-17,Sales Call,Endive Logic,Startup,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1245,2026-05-17,Survey,Kramerica Labs,Startup,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1160,2026-05-18,Support,Gekko & Co,SMB,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1365,2026-05-18,Customer Interview,Dunder Mifflin,Mid-market,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1418,2026-05-19,App Review,Bluth Company,SMB,Nova Connect,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1207,2026-05-20,App Review,Umbrella Corp,Enterprise,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1303,2026-05-20,Survey,Strickland Propane,SMB,Nova Analytics,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1410,2026-05-20,Customer Interview,Wayne Enterprises,Enterprise,Nova Connect,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1039,2026-05-21,Support,Pied Piper,SMB,Nova Analytics,Huge improvement over last month. The step-by-step checklist made setup a breeze.,positive,onboarding
+F1158,2026-05-21,App Review,Bachmanity,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1308,2026-05-21,Survey,Bluth Company,SMB,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1323,2026-05-21,Sales Call,Black Mesa Research,Mid-market,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1476,2026-05-21,Survey,Stark Industries,Enterprise,Nova Connect,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1196,2026-05-23,Survey,Kramerica Labs,Startup,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1304,2026-05-23,Support,Initech Systems,Enterprise,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1478,2026-05-23,Sales Call,Wayne Enterprises,Enterprise,Nova Connect,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1050,2026-05-24,Customer Interview,Bachmanity,Startup,Nova Analytics,The new Guided Onboarding is fantastic! Got our startup fully onboarded in under 15 minutes.,positive,onboarding
+F1334,2026-05-24,Support,Initech Systems,Enterprise,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1459,2026-05-24,Survey,Aviato,Startup,Nova API,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1237,2026-05-25,Support,Wonka Industries,Mid-market,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1266,2026-05-25,Sales Call,Soylent Corp,Mid-market,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1348,2026-05-25,Survey,Hooli Enterprise,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1430,2026-05-26,Customer Interview,Endive Logic,Startup,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1042,2026-05-27,Customer Interview,Kramerica Labs,Startup,Nova Analytics,The new Guided Onboarding is fantastic! Got our startup fully onboarded in under 15 minutes.,positive,onboarding
+F1057,2026-05-27,App Review,Gekko & Co,SMB,Nova Analytics,"Love the new onboarding wizard. Clean, fast, and intuitive setup flow.",positive,onboarding
+F1060,2026-05-28,Support,Monsters Inc,SMB,Nova Analytics,The new Guided Onboarding is fantastic! Got our startup fully onboarded in under 15 minutes.,positive,onboarding
+F1415,2026-05-28,Survey,Strickland Propane,SMB,Nova Analytics,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1477,2026-05-28,Sales Call,Kramerica Labs,Startup,Nova Analytics,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1043,2026-05-29,Customer Interview,Bluth Company,SMB,Nova Analytics,Onboarding was so smooth our non-technical marketer setup their first funnel without engineering help.,positive,onboarding
+F1220,2026-05-29,Survey,Initech Systems,Enterprise,Nova Analytics,The dark mode interface is gorgeous and easy on the eyes during late night query sessions.,positive,ux
+F1254,2026-05-29,Sales Call,Soylent Corp,Mid-market,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1524,2026-05-29,Sales Call,Kramerica Labs,Startup,Nova Analytics,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1375,2026-05-30,Customer Interview,Cyberdyne Systems,Mid-market,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1450,2026-06-01,Support,Kramerica Labs,Startup,Nova API,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1162,2026-06-02,App Review,Soylent Corp,Mid-market,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1198,2026-06-02,Sales Call,Prestige Worldwide,SMB,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1200,2026-06-02,Customer Interview,Kramerica Labs,Startup,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1471,2026-06-02,Customer Interview,Oscorp Tech,Mid-market,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1487,2026-06-02,Customer Interview,Wonka Industries,Mid-market,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1204,2026-06-04,Survey,SeeFood AI,Startup,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1088,2026-06-05,Sales Call,Umbrella Corp,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1199,2026-06-05,App Review,Pied Piper Cloud,Startup,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1239,2026-06-05,App Review,Vandelay Industries,SMB,Nova Analytics,Would love a native HubSpot connector to pull closed-won CRM attribution.,neutral,integrations
+F1428,2026-06-05,Customer Interview,Sterling Cooper,SMB,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1142,2026-06-08,Customer Interview,Hooli Enterprise,Enterprise,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1291,2026-06-08,Survey,Soylent Corp,Mid-market,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1143,2026-06-09,Customer Interview,Aviato,Startup,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1222,2026-06-09,Support,SeeFood AI,Startup,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1201,2026-06-10,Customer Interview,Soylent Corp,Mid-market,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1474,2026-06-11,Customer Interview,Initech Systems,Enterprise,Nova Connect,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1164,2026-06-12,Survey,Pied Piper,SMB,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1265,2026-06-12,Survey,Aviato,Startup,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1231,2026-06-13,App Review,Strickland Propane,SMB,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1436,2026-06-13,Survey,Bluth Company,SMB,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1528,2026-06-13,Survey,Aviato,Startup,Nova Connect,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1091,2026-06-14,Customer Interview,Acme Corp,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1173,2026-06-15,Survey,Soylent Corp,Mid-market,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1490,2026-06-16,Customer Interview,Wayne Enterprises,Enterprise,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1534,2026-06-16,App Review,Soylent Corp,Mid-market,Nova API,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1317,2026-06-17,Customer Interview,Gekko & Co,SMB,Nova Analytics,API response times are consistently solid under 80ms.,positive,reliability
+F1449,2026-06-17,Survey,Monsters Inc,SMB,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1082,2026-06-18,Customer Interview,Umbrella Corp,Enterprise,Nova API,We still need hands-on technical architecture support to complete the enterprise API integration.,negative,onboarding
+F1211,2026-06-18,Survey,Aperture Science,Mid-market,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1359,2026-06-18,Sales Call,Hooli Enterprise,Enterprise,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1413,2026-06-18,Customer Interview,Tyrell Corporation,Mid-market,Nova Analytics,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1167,2026-06-20,Support,Raviga Capital,Startup,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1214,2026-06-20,App Review,Sterling Cooper,SMB,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1493,2026-06-20,App Review,Massive Dynamic,Enterprise,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1093,2026-06-21,Support,Initech Systems,Enterprise,Nova API,"Enterprise setup takes too long. Wizard helps with UI, but we are stuck on backend API integration.",negative,onboarding
+F1161,2026-06-21,Support,Globex International,Enterprise,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1432,2026-06-21,Survey,Cyberdyne Systems,Mid-market,Nova Analytics,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1447,2026-06-23,App Review,Prestige Worldwide,SMB,Nova Analytics,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1156,2026-06-24,App Review,Aviato,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1491,2026-06-24,App Review,Soylent Corp,Mid-market,Nova Analytics,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1163,2026-06-25,App Review,Wayne Enterprises,Enterprise,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1149,2026-06-26,Sales Call,Wonka Industries,Mid-market,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1338,2026-06-26,Support,Dunder Mifflin,Mid-market,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1512,2026-06-26,Sales Call,Gekko & Co,SMB,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1099,2026-06-27,Sales Call,Stark Industries,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1489,2026-06-28,Sales Call,Hooli Enterprise,Enterprise,Nova Analytics,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1263,2026-06-29,App Review,Soylent Corp,Mid-market,Nova Analytics,Mobile browser dashboard layout doesn't render chart legends properly.,negative,mobile
+F1280,2026-06-29,Survey,Cyberdyne Systems,Mid-market,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1340,2026-06-29,Survey,Umbrella Corp,Enterprise,Nova Analytics,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1502,2026-06-30,App Review,Monsters Inc,SMB,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1073,2026-07-01,Sales Call,Hooli Enterprise,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1213,2026-07-01,Sales Call,Umbrella Corp,Enterprise,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1488,2026-07-03,Customer Interview,Strickland Propane,SMB,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1229,2026-07-05,App Review,Acme Corp,Enterprise,Nova Analytics,Keyboard shortcuts for fast SQL editing are super productive!,positive,ux
+F1089,2026-07-08,Customer Interview,Initech Systems,Enterprise,Nova API,We still need hands-on technical architecture support to complete the enterprise API integration.,negative,onboarding
+F1175,2026-07-08,Sales Call,Nucleus App,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1377,2026-07-08,Survey,Black Mesa Research,Mid-market,Nova Connect,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1443,2026-07-09,Sales Call,Umbrella Corp,Enterprise,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1240,2026-07-10,Customer Interview,Dunder Mifflin,Mid-market,Nova Analytics,Would love a native HubSpot connector to pull closed-won CRM attribution.,neutral,integrations
+F1522,2026-07-10,Sales Call,Black Mesa Research,Mid-market,Nova API,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1079,2026-07-11,Customer Interview,Massive Dynamic,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1084,2026-07-11,Survey,Initech Systems,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1526,2026-07-11,Survey,Soylent Corp,Mid-market,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1511,2026-07-12,App Review,Tyrell Corporation,Mid-market,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1205,2026-07-13,Sales Call,Stark Industries,Enterprise,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1075,2026-07-15,Support,Umbrella Corp,Enterprise,Nova API,"Enterprise setup takes too long. Wizard helps with UI, but we are stuck on backend API integration.",negative,onboarding
+F1202,2026-07-16,Survey,Wayne Enterprises,Enterprise,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1425,2026-07-16,Support,Oscorp Tech,Mid-market,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1168,2026-07-17,Survey,Dunder Mifflin,Mid-market,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1085,2026-07-18,Customer Interview,Massive Dynamic,Enterprise,Nova API,We still need hands-on technical architecture support to complete the enterprise API integration.,negative,onboarding
+F1078,2026-07-19,Support,Umbrella Corp,Enterprise,Nova API,Enterprise onboarding remains painful. Setting up API webhooks and VPC peering is completely undocumented.,negative,onboarding
+F1165,2026-07-19,Support,Wayne Enterprises,Enterprise,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1206,2026-07-20,Customer Interview,Hooli Enterprise,Enterprise,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1319,2026-07-21,Customer Interview,Wayne Enterprises,Enterprise,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1405,2026-07-21,Customer Interview,Strickland Propane,SMB,Nova Connect,Support team answered my ticket in 8 minutes with the exact SQL syntax needed.,positive,support
+F1417,2026-07-22,Support,Bachmanity,Startup,Nova Analytics,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1508,2026-07-22,Sales Call,Sterling Cooper,SMB,Nova Connect,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1426,2026-07-23,Sales Call,Hooli Enterprise,Enterprise,Nova Connect,API response times are consistently solid under 80ms.,positive,reliability
+F1074,2026-07-25,Customer Interview,Massive Dynamic,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1141,2026-07-25,Sales Call,Dunder Mifflin,Mid-market,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1386,2026-07-25,Sales Call,Dunder Mifflin,Mid-market,Nova Analytics,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1210,2026-07-26,Survey,Umbrella Corp,Enterprise,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1438,2026-07-26,Sales Call,Nucleus App,Startup,Nova Analytics,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1453,2026-07-26,App Review,Wonka Industries,Mid-market,Nova Analytics,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1212,2026-07-27,Customer Interview,Wonka Industries,Mid-market,Nova Analytics,The new budget threshold alerts and spend caps are exactly what our finance team wanted.,positive,pricing
+F1215,2026-07-28,Survey,Monsters Inc,SMB,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1209,2026-07-31,App Review,Wonka Industries,Mid-market,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1424,2026-07-31,Survey,Hooli Enterprise,Enterprise,Nova Analytics,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1172,2026-08-01,App Review,Stark Industries,Enterprise,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1208,2026-08-02,Support,Endive Logic,Startup,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1298,2026-08-02,Support,Wonka Industries,Mid-market,Nova API,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1380,2026-08-02,Survey,Umbrella Corp,Enterprise,Nova Analytics,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1439,2026-08-02,App Review,Massive Dynamic,Enterprise,Nova API,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1170,2026-08-03,Support,SeeFood AI,Startup,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1241,2026-08-03,Survey,Aviato,Startup,Nova Analytics,Snowflake and BigQuery sync integrations work reliably without data loss.,positive,integrations
+F1396,2026-08-05,Customer Interview,SeeFood AI,Startup,Nova Connect,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1398,2026-08-05,App Review,Sterling Cooper,SMB,Nova Analytics,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1086,2026-08-06,Sales Call,Umbrella Corp,Enterprise,Nova API,API onboarding friction is delaying our company-wide rollout by another 3 weeks.,negative,onboarding
+F1157,2026-08-06,Sales Call,Bluth Company,SMB,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1368,2026-08-06,Customer Interview,Bachmanity,Startup,Nova API,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1286,2026-08-09,Customer Interview,Globex International,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1460,2026-08-09,App Review,Gekko & Co,SMB,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1077,2026-08-12,Customer Interview,Globex International,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1151,2026-08-12,Customer Interview,Prestige Worldwide,SMB,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1144,2026-08-13,Sales Call,Umbrella Corp,Enterprise,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1427,2026-08-13,Support,Black Mesa Research,Mid-market,Nova API,Commenting on chart annotations has streamlined our monthly business reviews.,positive,collaboration
+F1148,2026-08-16,Survey,Monsters Inc,SMB,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1171,2026-08-16,App Review,Prestige Worldwide,SMB,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1307,2026-08-16,Survey,Umbrella Corp,Enterprise,Nova Connect,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1257,2026-08-17,App Review,Aviato,Startup,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1092,2026-08-18,Survey,Acme Corp,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1154,2026-08-18,Customer Interview,Hooli Enterprise,Enterprise,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1277,2026-08-18,Support,Cyberdyne Systems,Mid-market,Nova API,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1344,2026-08-18,Sales Call,Endive Logic,Startup,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1234,2026-08-19,Survey,Wayne Enterprises,Enterprise,Nova Analytics,The dark mode interface is gorgeous and easy on the eyes during late night query sessions.,positive,ux
+F1071,2026-08-20,Support,Massive Dynamic,Enterprise,Nova API,API onboarding friction is delaying our company-wide rollout by another 3 weeks.,negative,onboarding
+F1388,2026-08-20,Customer Interview,Nucleus App,Startup,Nova Analytics,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1322,2026-08-21,Support,Raviga Capital,Startup,Nova Analytics,Uptime has been 99.99% for the last 6 months. Very dependable platform.,positive,reliability
+F1076,2026-08-23,Survey,Acme Corp,Enterprise,Nova API,"Enterprise setup takes too long. Wizard helps with UI, but we are stuck on backend API integration.",negative,onboarding
+F1335,2026-08-24,App Review,SeeFood AI,Startup,Nova API,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1379,2026-08-24,Survey,Massive Dynamic,Enterprise,Nova API,Webhook documentation helped us deploy custom alerting in an afternoon.,positive,documentation
+F1419,2026-08-24,Survey,Gekko & Co,SMB,Nova Analytics,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1480,2026-08-24,App Review,Aperture Science,Mid-market,Nova API,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1486,2026-08-24,Sales Call,Monsters Inc,SMB,Nova API,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1087,2026-08-25,App Review,Acme Corp,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1498,2026-08-25,App Review,Tyrell Corporation,Mid-market,Nova API,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1529,2026-08-25,App Review,Prestige Worldwide,SMB,Nova API,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1531,2026-08-25,Support,Kramerica Labs,Startup,Nova Connect,Need more advanced code examples for batch ingestion endpoints.,negative,documentation
+F1341,2026-08-27,Customer Interview,Gekko & Co,SMB,Nova Analytics,Would like automated exports directly to S3 buckets.,neutral,export
+F1072,2026-08-28,Survey,Globex International,Enterprise,Nova API,"Enterprise setup takes too long. Wizard helps with UI, but we are stuck on backend API integration.",negative,onboarding
+F1105,2026-08-28,Customer Interview,Massive Dynamic,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1374,2026-08-29,Sales Call,Globex International,Enterprise,Nova Analytics,CSV and Parquet export feature exports 500k rows in under 10 seconds.,positive,export
+F1406,2026-08-29,Sales Call,Strickland Propane,SMB,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1095,2026-08-31,Customer Interview,Hooli Enterprise,Enterprise,Nova API,Enterprise onboarding remains painful. Setting up API webhooks and VPC peering is completely undocumented.,negative,onboarding
+F1355,2026-09-02,Survey,Aviato,Startup,Nova Analytics,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1080,2026-09-03,Sales Call,Wayne Enterprises,Enterprise,Nova API,API onboarding friction is delaying our company-wide rollout by another 3 weeks.,negative,onboarding
+F1090,2026-09-03,App Review,Wayne Enterprises,Enterprise,Nova API,API onboarding friction is delaying our company-wide rollout by another 3 weeks.,negative,onboarding
+F1535,2026-09-03,App Review,Massive Dynamic,Enterprise,Nova Analytics,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1326,2026-09-04,App Review,Hooli Enterprise,Enterprise,Nova API,Scheduled PDF reports via email look clean and executive-ready.,positive,export
+F1362,2026-09-04,Sales Call,Stark Industries,Enterprise,Nova Connect,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1250,2026-09-05,Customer Interview,Aviato,Startup,Nova Analytics,Would love a native HubSpot connector to pull closed-won CRM attribution.,neutral,integrations
+F1356,2026-09-05,Customer Interview,Prestige Worldwide,SMB,Nova API,API response times are consistently solid under 80ms.,positive,reliability
+F1458,2026-09-05,App Review,Black Mesa Research,Mid-market,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1267,2026-09-07,Support,Nucleus App,Startup,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1097,2026-09-08,Customer Interview,Stark Industries,Enterprise,Nova API,API onboarding friction is delaying our company-wide rollout by another 3 weeks.,negative,onboarding
+F1468,2026-09-08,Survey,Dunder Mifflin,Mid-market,Nova Analytics,"API reference docs have clear curl examples, but Python SDK samples need updating.",neutral,documentation
+F1481,2026-09-08,Support,Bluth Company,SMB,Nova Analytics,Minor 5-minute blip during Tuesday 2am maintenance window.,neutral,reliability
+F1532,2026-09-08,Support,Initech Systems,Enterprise,Nova Analytics,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1290,2026-09-09,Survey,Aviato,Startup,Nova API,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1203,2026-09-10,Sales Call,Aviato,Startup,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1284,2026-09-10,Sales Call,Wayne Enterprises,Enterprise,Nova Connect,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1494,2026-09-10,Sales Call,Massive Dynamic,Enterprise,Nova Connect,Need option to split invoices across multiple departmental cost centers.,neutral,billing
+F1256,2026-09-11,Survey,Hooli Enterprise,Enterprise,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1096,2026-09-12,Survey,Globex International,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1268,2026-09-12,Survey,Nucleus App,Startup,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1101,2026-09-13,Support,Umbrella Corp,Enterprise,Nova API,Enterprise onboarding remains painful. Setting up API webhooks and VPC peering is completely undocumented.,negative,onboarding
+F1353,2026-09-13,Survey,Aviato,Startup,Nova Analytics,"Chat support was helpful, although resolution took an extra escalation.",neutral,support
+F1401,2026-09-13,Customer Interview,Raviga Capital,Startup,Nova Analytics,Would like automated exports directly to S3 buckets.,neutral,export
+F1404,2026-09-13,App Review,Initech Systems,Enterprise,Nova API,Invoice PDF download is easy to retrieve from the billing portal.,positive,billing
+F1152,2026-09-14,Support,Nucleus App,Startup,Nova Analytics,The query engine performance update is incredible. Dashboards render almost instantly now.,positive,performance
+F1098,2026-09-15,Customer Interview,Massive Dynamic,Enterprise,Nova API,Enterprise onboarding remains painful. Setting up API webhooks and VPC peering is completely undocumented.,negative,onboarding
+F1174,2026-09-15,App Review,Vandelay Industries,SMB,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1159,2026-09-16,Support,Globex International,Enterprise,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1081,2026-09-17,Survey,Acme Corp,Enterprise,Nova API,We still need hands-on technical architecture support to complete the enterprise API integration.,negative,onboarding
+F1103,2026-09-17,App Review,Massive Dynamic,Enterprise,Nova API,Enterprise onboarding remains painful. Setting up API webhooks and VPC peering is completely undocumented.,negative,onboarding
+F1104,2026-09-18,Customer Interview,Hooli Enterprise,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding
+F1197,2026-09-19,App Review,Sterling Cooper,SMB,Nova Analytics,Predictable billing caps prevent surprise charges. Much more trustworthy pricing model now.,positive,pricing
+F1270,2026-09-19,Sales Call,Monsters Inc,SMB,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1462,2026-09-19,App Review,Sterling Cooper,SMB,Nova API,SOC2 Type II report and audit logs satisfied our security review quickly.,positive,security
+F1255,2026-09-20,App Review,Prestige Worldwide,SMB,Nova Analytics,Slack webhook alerts for anomaly detection alert us within seconds of metric drops.,positive,integrations
+F1225,2026-09-21,App Review,Prestige Worldwide,SMB,Nova Analytics,Cohort builder filter dropdowns feel slightly cluttered on 13-inch laptop screens.,negative,ux
+F1102,2026-09-22,App Review,Stark Industries,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1153,2026-09-22,Support,Raviga Capital,Startup,Nova Analytics,Performance is lightning fast now. Kudos to the engineering team.,positive,performance
+F1100,2026-09-23,Customer Interview,Stark Industries,Enterprise,Nova API,We still need hands-on technical architecture support to complete the enterprise API integration.,negative,onboarding
+F1273,2026-09-24,Sales Call,Gekko & Co,SMB,Nova Analytics,iOS web app is responsive enough for quick revenue metric checks on the go.,neutral,mobile
+F1287,2026-09-24,Sales Call,Umbrella Corp,Enterprise,Nova Connect,Role-based permissions allow us to cleanly restrict PII access by department.,positive,security
+F1166,2026-09-25,App Review,Globex International,Enterprise,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1083,2026-09-26,Support,Umbrella Corp,Enterprise,Nova API,"The UI wizard is fine for basic teams, but advanced API configuration still requires 3 engineering days.",negative,onboarding
+F1146,2026-09-27,Support,Bachmanity,Startup,Nova Analytics,Sub-second queries across 15M records! Night and day difference compared to Q1.,positive,performance
+F1457,2026-09-27,Customer Interview,Pied Piper Cloud,Startup,Nova Connect,Shared dashboard links with view-only permissions make cross-team sharing easy.,positive,collaboration
+F1094,2026-09-28,Support,Umbrella Corp,Enterprise,Nova API,Our developers are stuck on API key role provisioning during onboarding. Wizard doesn't support custom IAM.,negative,onboarding

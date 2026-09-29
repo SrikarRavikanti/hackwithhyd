@@ -1,0 +1,70 @@
+[
+  {
+    "id": "DEC-2026-01",
+    "title": "Launch Guided Onboarding V1",
+    "date": "2026-03-15",
+    "owner": "Sarah Lin (VP Product)",
+    "reason": "Address high friction in initial setup navigation identified in Q1 feedback.",
+    "expected_outcome": "Reduce onboarding drop-off by 40% and improve SMB setup CSAT.",
+    "status": "completed",
+    "tags": [
+      "theme:onboarding",
+      "type:decision"
+    ]
+  },
+  {
+    "id": "DEC-2026-02",
+    "title": "API Setup Wizard & Credential Automation",
+    "date": "2026-06-01",
+    "owner": "Marcus Chen (Head of Core Platform)",
+    "reason": "Resolve persistent API key provisioning friction reported by Enterprise accounts.",
+    "expected_outcome": "Decrease developer onboarding support tickets by 50%.",
+    "status": "completed",
+    "tags": [
+      "theme:api",
+      "theme:onboarding",
+      "type:decision"
+    ]
+  },
+  {
+    "id": "DEC-2026-03",
+    "title": "Query Engine Performance Overhaul",
+    "date": "2026-04-20",
+    "owner": "Elena Rostova (Principal Architect)",
+    "reason": "Resolve dashboard query timeouts for datasets exceeding 10M rows.",
+    "expected_outcome": "Sub-500ms p95 query latency across all analytics widgets.",
+    "status": "completed",
+    "tags": [
+      "theme:performance",
+      "type:decision"
+    ]
+  },
+  {
+    "id": "DEC-2026-04",
+    "title": "Predictable Usage Billing & Budget Alerts",
+    "date": "2026-05-10",
+    "owner": "David Miller (Director of Growth)",
+    "reason": "Address mid-market complaints about surprise compute billing overages.",
+    "expected_outcome": "Eliminate billing disputes by adding hard spend caps and SMS/Email threshold notifications.",
+    "status": "completed",
+    "tags": [
+      "theme:pricing",
+      "theme:billing",
+      "type:decision"
+    ]
+  },
+  {
+    "id": "DEC-2026-05",
+    "title": "Enterprise SSO & Role-Based Access Control V2",
+    "date": "2026-08-15",
+    "owner": "Marcus Chen (Head of Core Platform)",
+    "reason": "Unblock enterprise infosec sign-offs and streamline Okta/SAML provisioning.",
+    "expected_outcome": "Zero security compliance escalations during enterprise POCs.",
+    "status": "completed",
+    "tags": [
+      "theme:security",
+      "theme:onboarding",
+      "type:decision"
+    ]
+  }
+]
